@@ -1,0 +1,70 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Secular One', sans-serif;
+    box-sizing: border-box;
+}
+
+.heading {
+    background: rgb(18, 18, 72);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.card {
+    display: flex;
+    gap: 80px;
+    height: 560px;
+
+}
+
+.box {
+    flex: 1;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+.box>h2 {
+    background: rgb(239, 159, 159);
+    color: #fff;
+    padding: 12px;
+    font-size: 35px;
+}
+.box>h2:hover {
+    background: rgb(55, 207, 55);
+}
+.box>ul>li {
+    list-style-type: none;
+    padding: 22.5px;
+    border: 0.1px solid grey;
+    font-size: 20px;
+    background: rgb(239, 232, 232);
+}
+
+.box>ul>li:hover {
+    background: rgb(55, 207, 55);
+    color: #fff;
+}
+
+.box>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(55, 207, 55);
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.box>ul>li>a:hover {
+    background: red;
+    color: #fff;
+    border: 2px solid black;
+}
+.footer {
+    background: rgb(18, 18, 72);
+    height: 70px;
+}
